@@ -63,7 +63,6 @@
         border-radius: 20px;
       }
 
-      /* Styles for tick and cross */
       .tick::before {
         content: "\2713";
         color: #ffbb70;
@@ -83,7 +82,6 @@
         transform: translateY(-3px);
       }
 
-      /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
         .pricing-container {
           flex-direction: column;
